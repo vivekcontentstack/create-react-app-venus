@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { Button } from "@contentstack/venus-components";
+import logo from "./logo.svg";
 
 function App() {
   return (
@@ -9,14 +11,15 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        <Button>I am a venus button!</Button>
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
