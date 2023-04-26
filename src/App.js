@@ -1,5 +1,6 @@
 import "./App.css";
 
+import '@contentstack/venus-components/build/main.css';
 import { Button } from "@contentstack/venus-components";
 import logo from "./logo.svg";
 
