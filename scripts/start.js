@@ -7,6 +7,7 @@ defaults.__set__('configFactory', (webpackEnv) => {
     let config = webpackConfig(webpackEnv);
 
     //Customize the webpack configuration here,
+    config.stats = { warnings:false }
     config.resolve.fallback = {
         "url": false,
         "path": false
